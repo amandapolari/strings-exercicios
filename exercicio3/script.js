@@ -29,14 +29,20 @@ function verificarCores(string) {
 const resultadoCoresTrocadas = verificarCores(novaString);
 
 // 📌 EXTRA)
+// (com replace)
+const emMaiuscula = frase.replace('mas não deixe o gato sair','MAS NÃO DEIXE O GATO SAIR');
+console.log(emMaiuscula);
+
+//(de outra forma)
 // console.log(typeof resultadoCoresTrocadas)
-const fraseParteI = 'Jorge tem uma casa verde e com portão azul, com os dizeres: "BOAS VINDAS,'
-const fraseParteII = ' mas não deixe o gato sair"'
+// const fraseParteI = 'Jorge tem uma casa verde e com portão azul, com os dizeres: "BOAS VINDAS,'
+// const fraseParteII = ' mas não deixe o gato sair"'
 
-function colocarEmCaixaAlta(fraseASerModificada, fraseComum) {
-    const fraseEmCaixaAlta = fraseASerModificada.toUpperCase();
-    fraseUnida = fraseComum + fraseEmCaixaAlta;
-    console.log(fraseUnida);
-}
+// function colocarEmCaixaAlta(fraseASerModificada, fraseComum) {
+//     const fraseEmCaixaAlta = fraseASerModificada.toUpperCase();
+//     fraseUnida = fraseComum + fraseEmCaixaAlta;
+//     console.log(fraseUnida);
+// }
 
-colocarEmCaixaAlta(fraseParteII,fraseParteI);
+// colocarEmCaixaAlta(fraseParteII,fraseParteI);
+

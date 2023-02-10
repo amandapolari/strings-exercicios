@@ -23,7 +23,7 @@ imprimirTamanhoDaString(quantidadeDeCaracteresAntes, quantidadeDeCaracteresDepoi
 
 // 📌 c) Salvando a substituição em uma variável e imprimindo no console:
 
-//USANDO FUNÇÃO:
+// USANDO FUNÇÃO:
 function retornarSubstiuição(fraseInicial) {
     const fraseFinal = fraseInicial.replace('________','sticioso');
     console.log(`
